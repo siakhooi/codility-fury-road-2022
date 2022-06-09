@@ -1,10 +1,10 @@
-# Codility Challenge: <ChallengeName>
+# Codility Challenge: Fury Road 2022
 
 ## <Task Name>
 
 - Difficulty: <Difficulty>
 - <Description>
-- <challenge-url>
+- <https://app.codility.com/programmers/challenges/fury_road2022/>
 - <task-url>
 
 ## Versions
@@ -14,7 +14,7 @@
   - `OK`: Correctness 100%, Performance <100%.
   - `Fail`: Correctness <100%, Performance <100%.
 - File naming convention
-  - Code `A`: `ChallengeNameA.java`
+  - Code `A`: `FuryRoad2022A.java`
   - etc
 
 ### Gold Award

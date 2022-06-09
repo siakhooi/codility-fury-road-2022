@@ -1,6 +1,6 @@
 package nsh.codility;
 
-public class ChallengeNameA implements Challenge2021Interface {
+public class FuryRoad2022A implements FuryRoad2022Interface {
 
 	public int solution(int[] A, int L, int R) {
 		int N = A.length;
@@ -19,7 +19,7 @@ public class ChallengeNameA implements Challenge2021Interface {
 		int R = 1;
 		int E = 3;
 
-		int R1 = (new ChallengeNameA()).solution(A, L, R);
+		int R1 = (new FuryRoad2022A()).solution(A, L, R);
 		pf("     K: %d", L);
 		pf("    in: %s", R);
 		pf("   out: %s", R1);
