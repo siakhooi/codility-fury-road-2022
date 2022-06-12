@@ -1,9 +1,9 @@
 # Codility Challenge: Fury Road 2022
 
-## <Task Name>
+## ScooterRoad
 
-- Difficulty: <Difficulty>
-- <Description>
+- Difficulty: Medium
+- Calculate the minimum time that you need to get through the diversified road to your work.
 - <https://app.codility.com/programmers/challenges/fury_road2022/>
 - <task-url>
 
@@ -19,6 +19,6 @@
 
 ### Gold Award
 
-| File | Complexity | Result | Report |
-| ---- | ---------- | ------ | ------ |
-| `A`  | `O( )`     | ` `    | [ ]()  |
+| File | Complexity | Result | Report                                                                            |
+| ---- | ---------- | ------ | --------------------------------------------------------------------------------- |
+| `A`  | `O(N)`     | `Good` | [8JTHX9](https://app.codility.com/cert/view/cert8JTHX9-N59537GR4VMHF5HE/details/) |
