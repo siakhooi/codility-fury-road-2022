@@ -1,6 +1,8 @@
 package nsh.codility;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTimeoutPreemptively;
+import java.time.Duration;
 import java.util.stream.Stream;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -100,4 +102,22 @@ public abstract class AbstractFuryRoad2022Test {
 				Arguments.of(350, "AAAAAAAAAASSSSSSSSSS"));
 	}
 
+	private Duration getTimeoutDuration() {
+		return Duration.ofMillis(2000);
+	}
+
+	@ParameterizedTest
+	@MethodSource
+	void test_long(int E, String R) {
+		assertTimeoutPreemptively(getTimeoutDuration(), () -> assertEquals(E, testObject.solution(R)));
+	}
+
+	static Stream<Arguments> test_long() {
+		return Stream.of( //
+				Arguments.of(500_000, new String(new char[100000]).replace("\0", "A")), //
+				Arguments.of(3_000_000, new String(new char[100000]).replace("\0", "S")),
+				Arguments.of(1_750_000, //
+						new String(new char[50000]).replace("\0", "A")
+								+ new String(new char[50000]).replace("\0", "S")));
+	}
 }
