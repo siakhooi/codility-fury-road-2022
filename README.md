@@ -5,7 +5,7 @@
 - Difficulty: Medium
 - Calculate the minimum time that you need to get through the diversified road to your work.
 - <https://app.codility.com/programmers/challenges/fury_road2022/>
-- <task-url>
+- <https://app.codility.com/programmers/task/scooter_road/>
 
 ## Versions
 
