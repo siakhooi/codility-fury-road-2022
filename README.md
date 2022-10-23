@@ -22,3 +22,10 @@
 | File | Complexity | Result | Report                                                                            |
 | ---- | ---------- | ------ | --------------------------------------------------------------------------------- |
 | `A`  | `O(N)`     | `Good` | [8JTHX9](https://app.codility.com/cert/view/cert8JTHX9-N59537GR4VMHF5HE/details/) |
+
+### Solutions from Codility
+
+| File             | Complexity | Description        |
+| ---------------- | ---------- | ------------------ |
+| `solutions-1.py` | O(N^2)     |                    |
+| `solutions-2.py` | O(N)       | idea same with `A` |
